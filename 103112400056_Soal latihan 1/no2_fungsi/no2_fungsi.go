@@ -51,7 +51,7 @@ func hitungStatistik(angka []float64) (min, max, avg float64) {
 		total += nilai
 	}
 	
-	avg = total / float64((len)angka) // (7) Lengkapi perhitungan rata-rata
+	avg = total / float64(len(angka)) // (7) Lengkapi perhitungan rata-rata
 	return // implisit return untuk named return values
 }
 
